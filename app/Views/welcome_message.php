@@ -6,7 +6,7 @@
 		<div class="row">
 			<div class="col-md-12 my-2 card">
 				<div class="card-body">
-					<h5 class="h5">Codeigniter 4 Sudah Rilis!</h5>
+					<h5 class="h5">Codeigniter 4 Sudah Rilis Loh!</h5>
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam perferendis commodi tenetur quos ducimus repellat nulla, nam magni. Commodi iusto ad harum voluptas exercitationem facere eos earum laboriosam excepturi quas?</p>
 				</div>
 			</div>
