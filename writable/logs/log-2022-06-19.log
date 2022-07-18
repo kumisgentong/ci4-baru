@@ -1,0 +1,24 @@
+CRITICAL - 2022-06-19 13:11:25 --> Invalid file: admin_create_news_copy.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin_create_news_copy.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin_create_news_copy', [], true)
+ 3 APPPATH\Controllers\NewsAdmin.php(50): view('admin_create_news_copy')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\NewsAdmin->create()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsAdmin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(56): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-19 13:38:03 --> Duplicate entry 'judul-baru' for key 'slug'
+CRITICAL - 2022-06-19 13:38:03 --> Duplicate entry 'judul-baru' for key 'slug'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `news` (`title`, `content`, `status`, `slug`) VALUES (\'Judul baru\', \'<p>This is some sample content.</p>\', \'published\', \'judul-baru\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `news` (`title`, `content`, `status`, `slug`) VALUES (\'Judul baru\', \'<p>This is some sample content.</p>\', \'published\', \'judul-baru\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `news` (`title`, `content`, `status`, `slug`) VALUES (\'Judul baru\', \'<p>This is some sample content.</p>\', \'published\', \'judul-baru\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `news` (`title`, `content`, `status`, `slug`) VALUES (:title:, :content:, :status:, :slug:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\NewsAdmin.php(44): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\NewsAdmin->create()
+10 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsAdmin))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(56): CodeIgniter\CodeIgniter->run()

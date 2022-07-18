@@ -1,0 +1,55 @@
+CRITICAL - 2022-06-24 13:39:22 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\admin_create_news.php on line 2.
+ 1 APPPATH\Views\admin_create_news.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\admin_create_news.php', 2)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin_create_news.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin_create_news', [], true)
+ 5 APPPATH\Controllers\NewsAdmin.php(50): view('admin_create_news')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\NewsAdmin->create()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsAdmin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(56): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-24 13:42:28 --> Undefined variable $config
+in APPPATH\Views\admin_create_news.php on line 2.
+ 1 APPPATH\Views\admin_create_news.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $config', 'APPPATH\\Views\\admin_create_news.php', 2)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin_create_news.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin_create_news', [], true)
+ 5 APPPATH\Controllers\NewsAdmin.php(50): view('admin_create_news')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\NewsAdmin->create()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsAdmin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(56): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-24 13:42:33 --> Undefined variable $config
+in APPPATH\Views\admin_create_news.php on line 2.
+ 1 APPPATH\Views\admin_create_news.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $config', 'APPPATH\\Views\\admin_create_news.php', 2)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin_create_news.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin_create_news', [], true)
+ 5 APPPATH\Controllers\NewsAdmin.php(50): view('admin_create_news')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\NewsAdmin->create()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsAdmin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(56): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-24 13:42:46 --> Undefined variable $config
+in APPPATH\Views\admin_create_news.php on line 2.
+ 1 APPPATH\Views\admin_create_news.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $config', 'APPPATH\\Views\\admin_create_news.php', 2)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin_create_news.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin_create_news', [], true)
+ 5 APPPATH\Controllers\NewsAdmin.php(50): view('admin_create_news')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\NewsAdmin->create()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsAdmin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(56): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-24 14:25:49 --> Undefined global variable $_SESSION
+in APPPATH\Views\news_detail.php on line 4.
+ 1 APPPATH\Views\news_detail.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined global variable $_SESSION', 'APPPATH\\Views\\news_detail.php', 4)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\news_detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('news_detail', [], true)
+ 5 APPPATH\Controllers\NewsAdmin.php(25): view('news_detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\NewsAdmin->preview('25')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsAdmin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(56): CodeIgniter\CodeIgniter->run()

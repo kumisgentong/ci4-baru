@@ -1,0 +1,78 @@
+ERROR - 2022-06-17 07:47:13 --> Duplicate entry 'hello-world' for key 'slug'
+ERROR - 2022-06-17 09:30:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '<?php CHARACTER SET utf8 COLLATE utf8_general_ci' at line 1
+CRITICAL - 2022-06-17 10:17:24 --> Class 'App\Controllers\Datasample_Model' not found
+in APPPATH\Controllers\Get_Datasample.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Get_Datasample->index()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Get_Datasample))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(56): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-17 10:20:10 --> Class 'App\Controllers\Datasample_Model' not found
+in APPPATH\Controllers\Get_Datasample.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Get_Datasample->index()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Get_Datasample))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(56): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-17 10:20:16 --> Class 'App\Controllers\Datasample_Model' not found
+in APPPATH\Controllers\Get_Datasample.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Get_Datasample->index()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Get_Datasample))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(56): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-17 10:20:22 --> Class 'App\Controllers\Datasample_Model' not found
+in APPPATH\Controllers\Get_Datasample.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Get_Datasample->index()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Get_Datasample))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(56): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-17 10:20:51 --> Class 'App\Controllers\Datasample_Model' not found
+in APPPATH\Controllers\Get_Datasample.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Get_Datasample->index()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Get_Datasample))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(56): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-17 10:22:06 --> Class 'App\Controllers\Datasample_model' not found
+in APPPATH\Controllers\Get_Datasample.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Get_Datasample->index()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Get_Datasample))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(56): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-17 13:27:52 --> Call to undefined function form_textarea()
+in APPPATH\Views\admin_create_news.php on line 22.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin_create_news', [], true)
+ 4 APPPATH\Controllers\NewsAdmin.php(50): view('admin_create_news')
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\NewsAdmin->create()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsAdmin))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(56): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-17 16:11:02 --> Invalid file: layout/admin/admin_editor_layout.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/admin/admin_editor_layout.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/admin/admin_editor_layout', [], true)
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin_editor', [], true)
+ 4 APPPATH\Controllers\NewsAdmin.php(92): view('admin_editor')
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\NewsAdmin->teseditor()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsAdmin))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(56): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-17 16:14:53 --> Invalid file: layout/admin/admin_editor_layout.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/admin/admin_editor_layout.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/admin/admin_editor_layout', [], true)
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin_editor', [], true)
+ 4 APPPATH\Controllers\NewsAdmin.php(92): view('admin_editor')
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\NewsAdmin->teseditor()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsAdmin))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(56): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-17 16:18:13 --> Invalid file: layout/admin/admin_editor_layout.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/admin/admin_editor_layout.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/admin/admin_editor_layout', [], true)
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin_create_news', [], true)
+ 4 APPPATH\Controllers\NewsAdmin.php(50): view('admin_create_news')
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\NewsAdmin->create()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsAdmin))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(56): CodeIgniter\CodeIgniter->run()
